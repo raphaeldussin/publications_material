@@ -1,4 +1,4 @@
-name: py27
+name: pubs
 channels:
   - conda-forge
   - default
