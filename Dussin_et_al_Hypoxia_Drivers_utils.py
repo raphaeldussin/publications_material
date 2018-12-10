@@ -131,9 +131,9 @@ def add_etopo(datadir, bmap):
 def add_grid(bmap, parallels, meridians, hide_grid=False):
     ''' add longitude/latitude '''
     if hide_grid:
-        bmap.drawparallels(parallels, labels=[True,False,False,True],
+        bmap.drawparallels(parallels, labels=[False,False,False,False],
                            linewidth=1, color=[1.,1.,1.])
-        bmap.drawmeridians(meridians, labels=[True,False,False,True],
+        bmap.drawmeridians(meridians, labels=[False,False,False,False],
                            linewidth=1, color=[1.,1.,1.])
     else:
         bmap.drawparallels(parallels, labels=[True,False,False,True],
